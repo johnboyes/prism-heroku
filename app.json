@@ -1,0 +1,20 @@
+{
+  "name": "prism-heroku",
+  "description": "Experiment to deploy Prism OpenAPI mock servers to Heroku",
+  "scripts": {},
+  "env": {},
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "papertrail"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/johnboyes/tmp-heroku-prism-buildpack.git"
+    }
+  ],
+  "stack": "heroku-20"
+}
