@@ -15,9 +15,6 @@
     "url": "https://github.com/johnboyes/prism-heroku/issues"
   },
   "homepage": "https://github.com/johnboyes/prism-heroku#readme",
-  "engines": {
-    "node": "16.x"
-  },
   "dependencies": {
     "@stoplight/prism-cli": "^4.9.3"
   }
